@@ -19,4 +19,4 @@ ENV MYSQL_PORT=$MYSQL_PORT
 COPY ./init.sql /docker-entrypoint-initdb.d/
 
 # Mở cổng 3306 (cổng mặc định của MySQL)
-EXPOSE 3306
+EXPOSE 3307
